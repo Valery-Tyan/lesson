@@ -17,6 +17,6 @@ const personalMovieDB = {
 };
 const NF = prompt ("Один из последних просмотренных фильмов","");
 const bal = prompt ("На сколько оцените", "");
-movie : {
-    NF : bal
+const movie = {
+    "NF" : "bal"
 };
