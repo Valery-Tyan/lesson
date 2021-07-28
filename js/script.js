@@ -1,6 +1,22 @@
 "use strict";
-const answer = [];
-answer[0] = prompt ("ширина", "");
-answer[1] = prompt ("длина", "");
-answer[2] = prompt ("высота", "");
-alert(`объем= ${answer[0] * answer[1] * answer[2]}`);
+
+const numberOfFilms = +prompt ("Сколько фильмов посмотрели", "");
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movie : {
+
+    },
+    actors : {
+
+    },
+    genres : [
+
+    ],
+    privat : false
+};
+const NF = prompt ("Один из последних просмотренных фильмов","");
+const bal = prompt ("На сколько оцените", "");
+movie : {
+    NF : bal
+};
